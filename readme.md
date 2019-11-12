@@ -1,5 +1,27 @@
 ### 毕业论文
 
+#### 目录结构
+
+```
+│  readme.md
+│
+├─code //代码
+│  │  crawl_subject_live.py //爬取每个主题下的live数据 
+│  │  crawl_related_live.py //爬取和每个live相关的数据 
+│  │  crawl_user_info.py //爬取主讲人用户信息
+│  │  data_deal.py //数据预处理
+│  │  data_model.py //数据建模
+│
+├─data //数据
+│  │  alldata.csv
+│  
+├─docs //文档
+│  │  毕业答辩.pptx
+│  │  毕业论文.docx
+│  │  爬虫思路.png
+│
+```
+
 #### 论文题目
 
 知识付费用户参与度驱动因素差异研究——基于社会资本视角 
@@ -26,24 +48,3 @@
 
 4、而关系维度（发表文章数、参与公共编辑数）的影响效应最弱，且只在“专家型”群体中有较小的促进作用。
 
-#### 目录结构
-
-```
-│  readme.md
-│
-├─code //代码
-│  │  crawl_subject_live.py //爬取每个主题下的live数据 
-│  │  crawl_related_live.py //爬取和每个live相关的数据 
-│  │  crawl_user_info.py //爬取主讲人用户信息
-│  │  data_deal.py //数据预处理
-│  │  data_model.py //数据建模
-│
-├─data //数据
-│  │  alldata.csv
-│  
-├─docs //文档
-│  │  毕业答辩.pptx
-│  │  毕业论文.docx
-│  │  爬虫思路.png
-│
-```
